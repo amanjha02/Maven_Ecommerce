@@ -1,0 +1,29 @@
+2017-08-27 16:18:03 INFO  SignIn:35 - clicking on sign in link
+2017-08-27 16:18:03 INFO  SignIn:53 - entering email address to create an account
+2017-08-27 16:18:07 INFO  SignIn:73 - Clicking on create an account
+2017-08-27 16:18:10 INFO  CreateAnAccount:55 - selecting Mr Radion Button
+2017-08-27 16:18:10 INFO  CreateAnAccount:98 - entering first name
+2017-08-27 16:18:10 INFO  CreateAnAccount:103 - entering last name
+2017-08-27 16:18:11 INFO  CreateAnAccount:108 - entering password
+2017-08-27 16:18:11 INFO  CreateAnAccount:118 - clicking on day drop down
+2017-08-27 16:18:12 INFO  CreateAnAccount:124 - selecting day in day day drop down
+2017-08-27 16:18:12 INFO  CreateAnAccount:129 - clicking on month drop down
+2017-08-27 16:18:14 INFO  CreateAnAccount:136 - selecting month in month drop down
+2017-08-27 16:18:14 INFO  CreateAnAccount:143 - clicking on year drop down
+2017-08-27 16:18:16 INFO  CreateAnAccount:149 - clickin on year option
+2017-08-27 16:18:18 INFO  CreateAnAccount:156 - entering your address first name
+2017-08-27 16:18:18 INFO  CreateAnAccount:161 - entering your address lastname name
+2017-08-27 16:18:18 INFO  CreateAnAccount:166 - entering your primary Address
+2017-08-27 16:18:18 INFO  CreateAnAccount:171 - entering your secondry Address
+2017-08-27 16:18:18 INFO  CreateAnAccount:176 - entering your Address city name
+2017-08-27 16:18:18 INFO  CreateAnAccount:181 - clicking on your Address State Drop Down
+2017-08-27 16:18:19 INFO  CreateAnAccount:187 - entering your Address zip code
+2017-08-27 16:18:19 INFO  CreateAnAccount:192 - clicking on your Address Country Name
+2017-08-27 16:18:20 INFO  CreateAnAccount:195 - selecting Country Name
+2017-08-27 16:18:20 INFO  CreateAnAccount:200 - entering your Address phone nummber
+2017-08-27 16:18:20 INFO  CreateAnAccount:210 - clicking on register
+2017-08-27 16:18:26 INFO  SignIn:104 - user is getting log out from the application
+2017-08-27 16:18:27 INFO  SignIn:35 - clicking on sign in link
+2017-08-27 16:18:32 INFO  SignIn:53 - entering email address to create an account
+2017-08-27 16:18:35 INFO  SignIn:73 - Clicking on create an account
+2017-08-27 16:18:37 INFO  CreateAnAccount:61 - checking for creat an accoutn error message

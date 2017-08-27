@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testScript.Tc_002_Registration">
+        <methods>
+          <include name="testRegistraionWithValidData"/>
+          <include name="beforeMethod"/>
+          <include name="quitBrowser"/>
+          <include name="afterMethod"/>
+          <include name="setUP"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- testScript.Tc_002_Registration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

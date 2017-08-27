@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="customListner.Listner"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScript.Tc_002_Registration">
+        <methods>
+          <include name="testRegistraionWithValidData"/>
+          <include name="beforeMethod"/>
+          <include name="quitBrowser"/>
+          <include name="afterMethod"/>
+          <include name="setUP"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- testScript.Tc_002_Registration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

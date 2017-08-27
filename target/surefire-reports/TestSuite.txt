@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 161.734 sec <<< FAILURE! - in TestSuite
+testRegistraionWithValidData(testScript.Tc_002_Registration)  Time elapsed: 35.251 sec  <<< FAILURE!
+java.lang.AssertionError: Registration test is fail expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at testScript.Tc_002_Registration.testRegistraionWithValidData(Tc_002_Registration.java:48)
+

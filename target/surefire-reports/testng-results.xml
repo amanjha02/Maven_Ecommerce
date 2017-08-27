@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started running:testLogin at:16]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:testRegistraionWithValidData at:16]]>
+    </line>
+    <line>
+      <![CDATA[<a href="H:\NewWorkspace\Maven_Ecommerce//src//test//java//ScreenShot//08-27-2017_13-35-testRegistraionWithValidData.png"><img src="file:///H:\NewWorkspace\Maven_Ecommerce//src//test//java//ScreenShot//08-27-2017_13-35-testRegistraionWithValidData.png" alt=""height='100' width='100'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[testRegistraionWithValidData--Test method failed
+]]>
+    </line>
+    <line>
+      <![CDATA[<a href='H:\NewWorkspace\Maven_Ecommerce\src\main\java\com\test\automation\uiAutomation\screenshot\blank_27_08_2017_01_11_35.png'> <img src='H:\NewWorkspace\Maven_Ecommerce\src\main\java\com\test\automation\uiAutomation\screenshot\blank_27_08_2017_01_11_35.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Test started running:testRegistraionWithInvalidData at:16]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="160713" started-at="2017-08-27T07:39:17Z" finished-at="2017-08-27T07:41:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="160713" started-at="2017-08-27T07:39:17Z" finished-at="2017-08-27T07:41:58Z">
+      <class name="testScript.Tc_002_Registration">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="setUP" is-config="true" duration-ms="18955" started-at="2017-08-27T13:10:40Z" finished-at="2017-08-27T13:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="FAIL" signature="testRegistraionWithValidData()[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="testRegistraionWithValidData" duration-ms="35244" started-at="2017-08-27T13:10:59Z" description="Test Registration with valid data" finished-at="2017-08-27T13:11:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Registration test is fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Registration test is fail expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at testScript.Tc_002_Registration.testRegistraionWithValidData(Tc_002_Registration.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:testRegistraionWithValidData at:16]]>
+            </line>
+            <line>
+              <![CDATA[<a href="H:\NewWorkspace\Maven_Ecommerce//src//test//java//ScreenShot//08-27-2017_13-35-testRegistraionWithValidData.png"><img src="file:///H:\NewWorkspace\Maven_Ecommerce//src//test//java//ScreenShot//08-27-2017_13-35-testRegistraionWithValidData.png" alt=""height='100' width='100'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegistraionWithValidData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-27T13:10:59Z" finished-at="2017-08-27T13:10:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScript.Tc_002_Registration.testRegistraionWithValidData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="afterMethod" is-config="true" duration-ms="278" started-at="2017-08-27T13:11:35Z" finished-at="2017-08-27T13:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistraionWithValidData status=FAILURE method=Tc_002_Registration.testRegistraionWithValidData()[pri:0, instance:testScript.Tc_002_Registration@210366b4] output=Test started running:testRegistraionWithValidData at:16]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='H:\NewWorkspace\Maven_Ecommerce\src\main\java\com\test\automation\uiAutomation\screenshot\blank_27_08_2017_01_11_35.png'> <img src='H:\NewWorkspace\Maven_Ecommerce\src\main\java\com\test\automation\uiAutomation\screenshot\blank_27_08_2017_01_11_35.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-27T13:11:35Z" finished-at="2017-08-27T13:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScript.Tc_002_Registration.testRegistraionWithInvalidData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegistraionWithInvalidData()[pri:1, instance:testScript.Tc_002_Registration@210366b4]" name="testRegistraionWithInvalidData" duration-ms="12182" started-at="2017-08-27T13:11:35Z" description="Test Registration with invalid data" finished-at="2017-08-27T13:11:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:testRegistraionWithInvalidData at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegistraionWithInvalidData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-27T13:11:47Z" finished-at="2017-08-27T13:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistraionWithInvalidData status=SUCCESS method=Tc_002_Registration.testRegistraionWithInvalidData()[pri:1, instance:testScript.Tc_002_Registration@210366b4] output=Test started running:testRegistraionWithInvalidData at:16]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="quitBrowser" is-config="true" duration-ms="10092" started-at="2017-08-27T13:11:47Z" finished-at="2017-08-27T13:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testScript.Tc_002_Registration@210366b4]" name="endTest" is-config="true" duration-ms="92" started-at="2017-08-27T13:11:58Z" finished-at="2017-08-27T13:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testScript.Tc_002_Registration -->
+      <class name="testScript.Tc_0001Login">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testScript.Tc_0001Login@335eadca]" name="Setup" is-config="true" duration-ms="43388" started-at="2017-08-27T13:09:17Z" finished-at="2017-08-27T13:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScript.Tc_0001Login@335eadca]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2017-08-27T13:10:00Z" finished-at="2017-08-27T13:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScript.Tc_0001Login.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testScript.Tc_0001Login@335eadca]" name="testLogin" duration-ms="37944" started-at="2017-08-27T13:10:00Z" finished-at="2017-08-27T13:10:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started running:testLogin at:16]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScript.Tc_0001Login@335eadca]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-27T13:10:38Z" finished-at="2017-08-27T13:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Tc_0001Login.testLogin()[pri:0, instance:testScript.Tc_0001Login@335eadca] output=Test started running:testLogin at:16]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testScript.Tc_0001Login@335eadca]" name="closebrowser" is-config="true" duration-ms="2018" started-at="2017-08-27T13:10:38Z" finished-at="2017-08-27T13:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testScript.Tc_0001Login@335eadca]" name="endTest" is-config="true" duration-ms="115" started-at="2017-08-27T13:10:40Z" finished-at="2017-08-27T13:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testScript.Tc_0001Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

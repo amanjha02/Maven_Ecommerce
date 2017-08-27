@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="161.734" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="H:\NewWorkspace\Maven_Ecommerce"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="H:\NewWorkspace\Maven_Ecommerce"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\aman\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="H:\NewWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1956866486878192112.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_60/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_60/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_60/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk;C:\apache-ant-1.9.7\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_60\bin;H:\jarfile\apache-maven-3.3.9\bin;D:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\aman"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="aman"/>
+    <property name="java.class.path" value="/D:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="H:\NewWorkspace\Maven_Ecommerce\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testLogin" classname="testScript.Tc_0001Login" time="37.948"/>
+  <testcase name="testRegistraionWithValidData" classname="testScript.Tc_002_Registration" time="35.251">
+    <failure message="Registration test is fail expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Registration test is fail expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at testScript.Tc_002_Registration.testRegistraionWithValidData(Tc_002_Registration.java:48)
+</failure>
+    <system-out><![CDATA[H:\NewWorkspace\Maven_Ecommerce
+email1503819557357@gmail.com
+2017-08-27 13:10:59 INFO  SignIn:35 - clicking on sign in link
+2017-08-27 13:11:00 INFO  SignIn:53 - entering email address to create an account
+2017-08-27 13:11:10 INFO  SignIn:73 - Clicking on create an account
+2017-08-27 13:11:15 INFO  CreateAnAccount:55 - selecting Mr Radion Button
+2017-08-27 13:11:15 INFO  CreateAnAccount:98 - entering first name
+2017-08-27 13:11:16 INFO  CreateAnAccount:103 - entering last name
+2017-08-27 13:11:16 INFO  CreateAnAccount:108 - entering password
+2017-08-27 13:11:16 INFO  CreateAnAccount:118 - clicking on day drop down
+2017-08-27 13:11:17 INFO  CreateAnAccount:124 - selecting day in day day drop down
+2017-08-27 13:11:18 INFO  CreateAnAccount:129 - clicking on month drop down
+2017-08-27 13:11:19 INFO  CreateAnAccount:136 - selecting month in month drop down
+2017-08-27 13:11:19 INFO  CreateAnAccount:143 - clicking on year drop down
+2017-08-27 13:11:21 INFO  CreateAnAccount:149 - clickin on year option
+2017-08-27 13:11:23 INFO  CreateAnAccount:156 - entering your address first name
+2017-08-27 13:11:23 INFO  CreateAnAccount:161 - entering your address lastname name
+2017-08-27 13:11:23 INFO  CreateAnAccount:166 - entering your primary Address
+2017-08-27 13:11:23 INFO  CreateAnAccount:171 - entering your secondry Address
+2017-08-27 13:11:24 INFO  CreateAnAccount:176 - entering your Address city name
+2017-08-27 13:11:24 INFO  CreateAnAccount:181 - clicking on your Address State Drop Down
+2017-08-27 13:11:24 INFO  CreateAnAccount:187 - entering your Address zip code
+2017-08-27 13:11:24 INFO  CreateAnAccount:192 - clicking on your Address Country Name
+2017-08-27 13:11:25 INFO  CreateAnAccount:195 - selecting Country Name
+2017-08-27 13:11:26 INFO  CreateAnAccount:200 - entering your Address phone nummber
+2017-08-27 13:11:26 INFO  CreateAnAccount:210 - clicking on register
+]]></system-out>
+  </testcase>
+  <testcase name="testRegistraionWithInvalidData" classname="testScript.Tc_002_Registration" time="12.179"/>
+</testsuite>
